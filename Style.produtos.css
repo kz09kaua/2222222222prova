@@ -145,3 +145,22 @@ color: #23678E;
 
 }
 
+  .img-hover {
+    transition: all 0.3s ease;
+    filter: grayscale(0%);
+  }
+
+  .img-hover:hover {
+    transform: scale(1.15);
+    filter: grayscale(50%);
+    cursor: pointer;
+  }
+
+   .img-zoom {
+    transition: transform 0.3s ease; /* movimento suave */
+  }
+
+  .img-zoom:hover {
+    transform: scale(1.1); /* aumenta 20% */
+    cursor: pointer; /* mostra que é clicável */
+  }
